@@ -1,0 +1,8 @@
+.login {
+    display: inline-flex;
+    align-items: center;
+}
+
+h5 {
+    margin-right: 1rem;
+}

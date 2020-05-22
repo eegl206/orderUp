@@ -7,7 +7,7 @@ class Home extends React.Component {
         return (
             <Container>
                 <Row>
-                    <Col className="s12 center">
+                    <Col size="s12">
                         <LoginBtn />
                     </Col>
                 </Row>
