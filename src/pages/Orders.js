@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "../components/Grid";
-import LoginBtn from "../components/LoginBtn";
+import OrderList from "../components/OrderList"
 
-class Home extends React.Component {
+class Orders extends React.Component {
     render() {
         return (
             <Container>
                 <Row>
                     <Col className="s12">
-                        <LoginBtn />
+                        <OrderList />
                     </Col>
                 </Row>
             </Container>
@@ -16,4 +16,4 @@ class Home extends React.Component {
     };
 }
 
-export default Home;
+export default Orders;

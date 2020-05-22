@@ -1,17 +1,17 @@
 import React from "react";
+import './style.css'
 
-class OrderComplete extends React.Component {
+class OrderBtn extends React.Component {
     render() {
         return (
-            <nav>
-                <div className="nav-wrapper">
-                    <a href="/" className="brand-logo center">
-                        OrderUp<span role="img" aria-label="shortcake">🍰</span>
-                    </a>
-                </div>
-            </nav>
+            <div className="login">
+                <h5>Make an order</h5>
+                <a role="button" href="/orders" className="btn btn-floating btn-large waves-effect waves-light light-green darken-1 pulse">
+                    <i className="material-icons">vpn_key</i>
+                </a>
+            </div>
         );
     }
 }
 
-export default OrderComplete;
+export default OrderBtn;
